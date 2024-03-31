@@ -49,6 +49,7 @@ You'll find 2 folders, one named `frontend` and one named `backend`, where each 
       1. The manifest should deploy the newly created tagged image
       2. The tag applied to the image should be the git SHA of the commit that triggered the build
 
+![Screenshot 2024-03-31 200236](https://github.com/rycalling/CloudDevopsPro4/assets/143154994/cefe5c7f-83e0-4c31-be5d-fa29c3e629cd)
 
 **⚠️ NOTE**
 Once you begin work on Continuous Deployment, you'll need to first setup the AWS and Kubernetes environment. Follow [these instructions ](#setting-up-continuous-deployment-environment) only when you're ready to start testing your deployments.
