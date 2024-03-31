@@ -133,6 +133,7 @@ terraform apply
 cd setup/terraform
 terraform output
 ```
+![Screenshot 2024-03-31 175051](https://github.com/rycalling/CloudDevopsPro4/assets/143154994/4e1403a1-5ec3-470b-8ff8-5c4f1b0983f1)
 
 ### Generate AWS access keys for Github Actions
 
@@ -155,8 +156,9 @@ Now that the cluster and all AWS resources have been created, you'll need to add
 cd setup
 ./init.sh
 ```
-
-2. The script will download a tool, add the IAM user ARN to the authentication configuration, indicate a `Done` status, then it'll remove the tool
+![Screenshot 2024-03-31 175401](https://github.com/rycalling/CloudDevopsPro4/assets/143154994/da14c629-e6ef-4f59-840c-7db6654ed164)
+2. The script 
+will download a tool, add the IAM user ARN to the authentication configuration, indicate a `Done` status, then it'll remove the tool
 
 ## Dependencies
 
@@ -277,6 +279,7 @@ FAIL_LINT=true npm run lint
 # Expected output
 > frontend@1.0.0 lint
 > eslint .
+![Screenshot 2024-03-31 180648](https://github.com/rycalling/CloudDevopsPro4/assets/143154994/cec244ad-e52f-4aec-a391-6d433e6429b1)
 
 
 /home/kirby/udacity/ci-cd/project/solution/frontend/src/components/MovieDetails.js
@@ -299,6 +302,7 @@ npm ci
 # Run local development server with hot reloading and point to the backend default
 REACT_APP_MOVIE_API_URL=http://localhost:5000 npm start
 ```
+![Screenshot 2024-03-31 192448](https://github.com/rycalling/CloudDevopsPro4/assets/143154994/02912e1e-9b3d-4e19-a811-b4615efad1e1)
 
 To build the frontend application for a production deployment, they use the following commands:
 
